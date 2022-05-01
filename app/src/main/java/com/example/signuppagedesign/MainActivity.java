@@ -29,10 +29,10 @@ public class MainActivity extends AppCompatActivity {
         register = findViewById(R.id.registration);
         login = findViewById(R.id.login);
 
-
+        //click event listener
         login.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-
+                
                 Intent LoginActivity = new Intent(getApplicationContext(), LoginActivity.class);
                 startActivity(LoginActivity);
             }
