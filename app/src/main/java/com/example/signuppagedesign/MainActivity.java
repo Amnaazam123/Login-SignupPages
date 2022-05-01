@@ -19,6 +19,7 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+        //main activity
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
@@ -32,7 +33,8 @@ public class MainActivity extends AppCompatActivity {
         //click event listener
         login.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                //showin new activity when clicked on button
+                //showing new activity when clicked on button
+                //login activity
                 Intent LoginActivity = new Intent(getApplicationContext(), LoginActivity.class);
                 startActivity(LoginActivity);
             }
