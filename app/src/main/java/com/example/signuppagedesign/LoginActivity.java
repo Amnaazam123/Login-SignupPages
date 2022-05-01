@@ -7,7 +7,7 @@ import android.widget.Button;
 import android.widget.EditText;
 
 public class LoginActivity extends AppCompatActivity {
-
+    //login instances
     EditText username;
     EditText password;
     Button register;
